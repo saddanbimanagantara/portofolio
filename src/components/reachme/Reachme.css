@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  margin-top: var(--margin-large);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: var(--margin-small);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: var(--margin-small);
+  width: 350px;
+}
+
+.form-input {
+  font-family: var(--font-family);
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  padding: var(--padding-small);
+}
+
+.form-textarea {
+  font-family: var(--font-family);
+  height: 100px;
+  border: none;
+  border-radius: 8px;
+  padding: var(--padding-small);
+  resize: none;
+}
+
+.btn-reachme {
+  margin: var(--margin-small) 0;
+  width: 120px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #347991;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  color: var(--light-color);
+}
+
+.btn-reachme:hover {
+  background-color: #2c9bd8;
+}
+
+.reachmeother {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: var(--margin-medium);
+}
+
+.reachmeother a {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 4px;
+  transition: all ease-in-out 0.5s;
+}
+
+.reachmeother a:hover {
+  color: #2c9bd8;
+}

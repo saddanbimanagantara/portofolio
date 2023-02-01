@@ -1,0 +1,31 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin-top: var(--margin-medium);
+  gap: 8px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  font-size: var(--font-size-body);
+}
+
+.mode i {
+  font-size: var(--font-size-body);
+  cursor: pointer;
+}
+
+.mode .light {
+  display: none;
+}
+
+.is-active {
+  color: #347991;
+}
