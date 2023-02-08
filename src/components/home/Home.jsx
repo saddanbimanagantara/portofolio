@@ -228,7 +228,7 @@ class Home extends Component {
               </div>
               <div className="card-stack-discription">
                 <h4>HTML</h4>
-                <p>expert</p>
+                {/* <p>expert</p> */}
               </div>
             </div>
             <div className="card-stack">
@@ -237,7 +237,7 @@ class Home extends Component {
               </div>
               <div className="card-stack-discription">
                 <h4>CSS</h4>
-                <p>expert</p>
+                {/* <p>expert</p> */}
               </div>
             </div>
             <div className="card-stack">
@@ -246,7 +246,7 @@ class Home extends Component {
               </div>
               <div className="card-stack-discription">
                 <h4>BOOTSTRAP</h4>
-                <p>expert</p>
+                {/* <p>expert</p> */}
               </div>
             </div>
             <div className="card-stack">
@@ -255,7 +255,7 @@ class Home extends Component {
               </div>
               <div className="card-stack-discription">
                 <h4>Javascript</h4>
-                <p>intermediate</p>
+                {/* <p>intermediate</p> */}
               </div>
             </div>
             <div className="card-stack">
@@ -264,7 +264,7 @@ class Home extends Component {
               </div>
               <div className="card-stack-discription">
                 <h4>PHP</h4>
-                <p>expert</p>
+                {/* <p>expert</p> */}
               </div>
             </div>
             <div className="card-stack">
@@ -273,7 +273,7 @@ class Home extends Component {
               </div>
               <div className="card-stack-discription">
                 <h4>Codeigniter 3</h4>
-                <p>expert</p>
+                {/* <p>expert</p> */}
               </div>
             </div>
             <div className="card-stack">
@@ -282,7 +282,7 @@ class Home extends Component {
               </div>
               <div className="card-stack-discription">
                 <h4>Laravel</h4>
-                <p>Intermediate</p>
+                {/* <p>Intermediate</p> */}
               </div>
             </div>
             <div className="card-stack">
@@ -291,7 +291,7 @@ class Home extends Component {
               </div>
               <div className="card-stack-discription">
                 <h4>Tailwind</h4>
-                <p>Intermediate</p>
+                {/* <p>Intermediate</p> */}
               </div>
             </div>
           </div>
