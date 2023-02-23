@@ -146,6 +146,7 @@
 }
 @media screen and (max-width: 400px) {
   .mystack {
+    margin: 0 var(--margin-small);
     grid-template-columns: 1fr;
   }
 
@@ -161,5 +162,13 @@
 
   .card-stack img {
     width: 40px;
+  }
+
+  .home-about {
+    margin-top: var(--margin-small);
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.8rem;
+    letter-spacing: 0.025em;
   }
 }

@@ -65,11 +65,17 @@
 .reachmeother a {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 16px;
   gap: 4px;
   transition: all ease-in-out 0.5s;
 }
 
 .reachmeother a:hover {
   color: #2c9bd8;
+}
+
+@media screen and (max-width: 400px) {
+  .reachmeother a {
+    font-size: 14px;
+  }
 }
